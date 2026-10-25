@@ -1,0 +1,9 @@
+{
+  "outputDirectory": "frontend/food-blog-app/dist",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
