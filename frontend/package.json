@@ -1,0 +1,13 @@
+{
+  "name": "food-blog-frontend",
+  "private": true,
+  "workspaces": [
+    "food-blog-app"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=food-blog-app",
+    "build": "npm run build --workspace=food-blog-app",
+    "lint": "npm run lint --workspace=food-blog-app",
+    "preview": "npm run preview --workspace=food-blog-app"
+  }
+}

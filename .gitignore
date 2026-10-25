@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+*/node_modules/
+*/*/node_modules/
+
+# Environment variables
+.env
+*/.env
+*/*/.env
+
+# Build outputs
+dist/
+*/dist/
+*/*/dist/
+
+# Uploaded images
+backend/public/images/*
+!backend/public/images/.gitkeep
+
+# Logs and system files
+*.log
+.DS_Store
+Thumbs.db
